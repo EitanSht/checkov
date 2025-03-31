@@ -26,7 +26,7 @@ jobs:
         with:
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
-      - uses: actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f  # v4
+      - uses: actions/setup-python@8d9ed9ac5c53483de85588cdf95a591a75ab9f55  # v4
         with:
           python-version: ${{ env.PYTHON_VERSION }}
       - name: Install pipenv
